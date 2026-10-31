@@ -24,7 +24,7 @@ import {
   type QuoteValues,
 } from "@/lib/quote";
 import { FORMS_URL } from "@/lib/forms";
-import { ChipGroup, FieldError, FieldShell, Honeypot, describedBy } from "./fields";
+import { PrivacyInfo, ChipGroup, FieldError, FieldShell, Honeypot, describedBy } from "./fields";
 
 const DRAFT_KEY = "aunza-quote-draft";
 
@@ -284,6 +284,7 @@ export function QuoteForm({ copy, locale }: { copy: QuoteCopy & { progressTempla
                 <Review label={copy.review.timing} edit={copy.review.edit} editTemplate={copy.editTemplate} value={`${options.budget[values.budget] ?? ""}${values.deliveryDate ? `. ${copy.review.by} ${values.deliveryDate}` : ""}${values.details ? `. ${values.details}` : ""}`} onEdit={() => setStep(3)} />
               </dl>
 
+              <PrivacyInfo copy={copy.privacy} />
               <div>
                 <label className="flex cursor-pointer items-start gap-3">
                   <input
@@ -297,7 +298,7 @@ export function QuoteForm({ copy, locale }: { copy: QuoteCopy & { progressTempla
                   />
                   <span className="text-[0.9375rem]">
                     {copy.consent.before}{" "}
-                    <Link href="/legal" target="_blank" className="link-line">{copy.consent.link}</Link>
+                    <Link href="/legal#privacy" target="_blank" className="link-line">{copy.consent.link}</Link>
                     {copy.consent.after}
                   </span>
                 </label>

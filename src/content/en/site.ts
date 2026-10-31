@@ -228,25 +228,3 @@ export const experiences = {
     ],
   },
 };
-
-export const legal = {
-  meta: { title: "Legal & Privacy", description: "Legal notice and privacy information for the AUNZA website." },
-  title: "Legal & privacy",
-  draft: "Draft: the owner's legal details have not been added yet and this text has not been reviewed by a lawyer.",
-  sections: [
-    { title: "Who runs this site", text: "AUNZA. Company name, registered address and tax number to be added." },
-    {
-      title: "What we collect",
-      text: "When you use the quote or contact forms we receive what you enter: your name, company, business email, country, project details and any file you attach. We don't ask for anything else, and this site doesn't use advertising or analytics cookies.",
-    },
-    { title: "Why we use it", text: "Only to answer your request and, if you go ahead, to manage your project. We don't sell your data." },
-    {
-      title: "Who handles it",
-      text: "Requests are delivered through service providers that send email and store form submissions on our behalf. Their names and locations will be listed here once they are confirmed.",
-    },
-    {
-      title: "Your rights",
-      text: "You can ask us to show, correct or delete your data, or object to how it is used, by writing through the contact form. If you are in the EU you can also complain to your data protection authority.",
-    },
-  ],
-};

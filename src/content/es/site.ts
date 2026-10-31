@@ -1,4 +1,4 @@
-import type { about as enAbout, contact as enContact, customProjects as enCustomProjects, detail as enDetail, experiences as enExperiences, home as enHome, legal as enLegal, pages as enPages, site as enSite } from "../en/site";
+import type { about as enAbout, contact as enContact, customProjects as enCustomProjects, detail as enDetail, experiences as enExperiences, home as enHome, pages as enPages, site as enSite } from "../en/site";
 
 // Escrito en castellano, no traducido: tuteo, tono directo y frases pensadas para sonar naturales en España.
 
@@ -231,26 +231,4 @@ export const experiences: typeof enExperiences = {
       { title: "Detalles bordados.", note: "Un hilo que se nota al pasar el dedo." },
     ],
   },
-};
-
-export const legal: typeof enLegal = {
-  meta: { title: "Aviso legal y privacidad", description: "Aviso legal e información sobre privacidad de la web de AUNZA." },
-  title: "Aviso legal y privacidad",
-  draft: "Borrador: todavía faltan los datos legales del titular y un abogado no ha revisado este texto.",
-  sections: [
-    { title: "Quién gestiona esta web", text: "AUNZA. Faltan por añadir la razón social, el domicilio social y el NIF." },
-    {
-      title: "Qué datos recogemos",
-      text: "Cuando usas los formularios de presupuesto o de contacto, recibimos lo que escribes: tu nombre, tu empresa, tu email de trabajo, tu país, los detalles del proyecto y cualquier archivo que adjuntes. No pedimos nada más, y esta web no usa cookies publicitarias ni de analítica.",
-    },
-    { title: "Para qué los usamos", text: "Solo para responder a tu solicitud y, si decides seguir adelante, gestionar tu proyecto. No vendemos tus datos." },
-    {
-      title: "Quién los trata",
-      text: "Las solicitudes se entregan a través de proveedores que envían emails y guardan los formularios en nuestro nombre. Indicaremos aquí sus nombres y ubicaciones cuando estén confirmados.",
-    },
-    {
-      title: "Tus derechos",
-      text: "Puedes pedirnos que te mostremos, corrijamos o eliminemos tus datos, u oponerte a cómo se usan, escribiéndonos a través del formulario de contacto. Si estás en la UE, también puedes reclamar ante tu autoridad de protección de datos; en España, la AEPD.",
-    },
-  ],
 };

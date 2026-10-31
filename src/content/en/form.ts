@@ -1,3 +1,15 @@
+const privacy = {
+  title: "Basic data protection information",
+  rows: [
+    ["Controller", "AUNZA — Joaquim Fachado Belart."],
+    ["Purpose", "to manage your information or quote request and contact you about it."],
+    ["Legal basis", "pre-contractual measures requested by the person concerned."],
+    ["Recipients", "data will not be passed to third parties, except where required by law or to providers needed to deliver the service."],
+    ["Rights", "you can access, rectify and erase your data, and exercise other rights, by writing to hola@aunza.es."],
+  ],
+  more: { label: "More information", before: "see our", link: "Privacy Policy", after: "." },
+};
+
 export const form = {
   quote: {
     meta: {
@@ -35,7 +47,8 @@ export const form = {
       attached: "Attached",
     },
     review: { you: "You", business: "Business", product: "Product", timing: "Timing", edit: "Edit", editLabel: (name: string) => `Edit ${name}`, by: "By" },
-    consent: { before: "AUNZA may use these details to reply to my request, as described in the", link: "privacy notice", after: "." },
+    consent: { before: "I have read and understood the", link: "Privacy Policy", after: "." },
+    privacy,
     optional: "Optional",
     buttons: { back: "Back", next: "Next", send: "Send request", sending: "Sending…" },
     done: {
@@ -121,7 +134,8 @@ export const form = {
   },
   contact: {
     fields: { name: "Name", email: "Email", message: "Message" },
-    consent: { before: "AUNZA may use these details to reply to me, as described in the", link: "privacy notice", after: "." },
+    consent: { before: "I have read and understood the", link: "Privacy Policy", after: "." },
+    privacy,
     optional: "Optional",
     buttons: { send: "Send message", sending: "Sending…" },
     done: (email: string) => `Thank you. We've received your message and will reply to ${email}.`,

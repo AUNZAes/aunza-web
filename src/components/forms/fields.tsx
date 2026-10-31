@@ -1,6 +1,7 @@
 "use client";
 
 import type { ReactNode } from "react";
+import Link from "@/components/ui/LocaleLink";
 
 export function FieldShell({ id, label, hint, error, required, optional, children }: { id: string; label: string; hint?: string; error?: string; required?: boolean; optional: string; children: ReactNode }) {
   return (
@@ -26,6 +27,22 @@ export function FieldError({ id, error }: { id: string; error?: string }) {
 
 export function describedBy(id: string, hint?: string, error?: string) {
   return [hint ? `${id}-hint` : "", error ? `${id}-error` : ""].filter(Boolean).join(" ") || undefined;
+}
+
+/** The first layer of privacy information, shown right above the consent box. */
+export function PrivacyInfo({ copy }: { copy: { title: string; rows: string[][]; more: { label: string; before: string; link: string; after: string } } }) {
+  return (
+    <div className="border-l-2 border-charcoal/20 pl-4 text-[0.8125rem] leading-relaxed text-charcoal/75">
+      <p className="font-medium text-charcoal">{copy.title}</p>
+      {copy.rows.map(([label, text]) => (
+        <p key={label} className="mt-1"><span className="font-medium">{label}:</span> {text}</p>
+      ))}
+      <p className="mt-1">
+        <span className="font-medium">{copy.more.label}:</span> {copy.more.before}{" "}
+        <Link href="/legal#privacy" target="_blank" className="link-line">{copy.more.link}</Link>{copy.more.after}
+      </p>
+    </div>
+  );
 }
 
 type Choice = string | { value: string; label: string };

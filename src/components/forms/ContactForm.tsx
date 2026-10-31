@@ -7,7 +7,7 @@ import type { Content } from "@/content";
 import type { Locale } from "@/i18n/config";
 import { FORMS_URL } from "@/lib/forms";
 import { EMAIL_RE } from "@/lib/quote";
-import { FieldError, FieldShell, Honeypot, describedBy } from "./fields";
+import { FieldError, FieldShell, Honeypot, PrivacyInfo, describedBy } from "./fields";
 
 type Errors = Partial<Record<"name" | "email" | "message" | "consent", string>>;
 type ContactCopy = Omit<Content["form"]["contact"], "done"> & { done: string };
@@ -73,11 +73,12 @@ export function ContactForm({ copy, locale }: { copy: ContactCopy; locale: Local
       <FieldShell id="message" label={copy.fields.message} optional={copy.optional} required error={errors.message}>
         <textarea id="message" name="message" rows={5} value={v.message} onChange={(e) => set({ message: e.target.value })} aria-invalid={errors.message ? true : undefined} aria-describedby={describedBy("message", undefined, errors.message)} className="field resize-y" />
       </FieldShell>
+      <PrivacyInfo copy={copy.privacy} />
       <div>
         <label className="flex cursor-pointer items-start gap-3">
           <input type="checkbox" name="consent" checked={v.consent} onChange={(e) => set({ consent: e.target.checked })} aria-invalid={errors.consent ? true : undefined} className="mt-1 h-5 w-5 shrink-0 accent-charcoal" />
           <span className="text-[0.9375rem]">
-            {copy.consent.before} <Link href="/legal" target="_blank" className="link-line">{copy.consent.link}</Link>{copy.consent.after}
+            {copy.consent.before} <Link href="/legal#privacy" target="_blank" className="link-line">{copy.consent.link}</Link>{copy.consent.after}
           </span>
         </label>
         <FieldError id="consent" error={errors.consent} />

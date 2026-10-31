@@ -1,5 +1,17 @@
 import type { form as en } from "../en/form";
 
+const privacy = {
+  title: "Información básica sobre protección de datos",
+  rows: [
+    ["Responsable", "AUNZA — Joaquim Fachado Belart."],
+    ["Finalidad", "gestionar tu solicitud de información o presupuesto y contactar contigo para atenderla."],
+    ["Legitimación", "aplicación de medidas precontractuales solicitadas por el interesado."],
+    ["Destinatarios", "no se cederán datos a terceros, salvo obligación legal o proveedores necesarios para prestar el servicio."],
+    ["Derechos", "puedes acceder, rectificar y suprimir tus datos, así como ejercer otros derechos, escribiendo a hola@aunza.es."],
+  ],
+  more: { label: "Más información", before: "consulta nuestra", link: "Política de Privacidad", after: "." },
+};
+
 export const form: typeof en = {
   quote: {
     meta: {
@@ -37,7 +49,8 @@ export const form: typeof en = {
       attached: "Adjunto",
     },
     review: { you: "Tú", business: "Empresa", product: "Producto", timing: "Plazos", edit: "Editar", editLabel: (name) => `Editar: ${name}`, by: "Para el" },
-    consent: { before: "AUNZA puede usar estos datos para responder a mi solicitud, tal como se explica en el", link: "aviso de privacidad", after: "." },
+    consent: { before: "He leído y comprendo la", link: "Política de Privacidad", after: "." },
+    privacy,
     optional: "Opcional",
     buttons: { back: "Atrás", next: "Siguiente", send: "Enviar solicitud", sending: "Enviando…" },
     done: {
@@ -123,7 +136,8 @@ export const form: typeof en = {
   },
   contact: {
     fields: { name: "Nombre", email: "Email", message: "Mensaje" },
-    consent: { before: "AUNZA puede usar estos datos para responderme, tal como se explica en el", link: "aviso de privacidad", after: "." },
+    consent: { before: "He leído y comprendo la", link: "Política de Privacidad", after: "." },
+    privacy,
     optional: "Opcional",
     buttons: { send: "Enviar mensaje", sending: "Enviando…" },
     done: (email) => `Gracias. Hemos recibido tu mensaje y te responderemos a ${email}.`,
