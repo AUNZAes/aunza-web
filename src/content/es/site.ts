@@ -13,7 +13,7 @@ export const site: typeof enSite = {
     { href: "/products", label: "Productos" },
     { href: "/markets", label: "Sectores" },
     { href: "/projects", label: "Proyectos" },
-    { href: "/custom-projects", label: "Proyectos a medida" },
+    { href: "/custom-projects", label: "A medida" },
     { href: "/christmas", label: "Navidad" },
     { href: "/about", label: "Nosotros" },
     { href: "/contact", label: "Contacto" },
@@ -91,7 +91,7 @@ export const home: typeof enHome = {
     ],
   },
   custom: {
-    label: "Proyectos a medida",
+    label: "A medida",
     lines: ["NADA CORRIENTE.", "NADA DE CATÁLOGO."],
     text: "Hay ideas que necesitan algo diferente. Cuéntanos qué quieres crear y exploraremos las posibilidades.",
     cta: "CREEMOS ALGO JUNTOS",
@@ -122,6 +122,21 @@ export const about: typeof enAbout = {
     "Creemos que el packaging, los uniformes, las botellas, el merchandising y los objetos de cada día pueden convertirse en potentes experiencias de marca. Un vaso puede hacer que alguien recuerde una cafetería. Una caja puede convertir una pequeña compra en una ocasión especial.",
     "Reunimos posibilidades de producto, personalización y producción coordinada para que las empresas creen productos que sientan realmente suyos.",
   ],
+  name: {
+    label: "Qué significa AUNZA",
+    headline: "A Unique New Zenith Approach.",
+    letters: [
+      { word: "A", meaning: null },
+      { word: "Unique", meaning: "Único" },
+      { word: "New", meaning: "Nuevo" },
+      { word: "Zenith", meaning: "Cima, el punto más alto" },
+      { word: "Approach", meaning: "Enfoque" },
+    ],
+    body: [
+      "AUNZA simboliza una forma única y diferente de abordar cada proyecto, explorar nuevas ideas y ayudar a las marcas a alcanzar nuevas alturas.",
+      "Es un nombre que transmite creatividad, innovación, diferenciación y ambición, alineado con nuestra filosofía: convertir ideas en productos y experiencias reales.",
+    ],
+  },
   how: {
     label: "Cómo trabajamos",
     headline: "Un solo equipo entre tu idea y el producto terminado.",
@@ -144,10 +159,10 @@ export const about: typeof enAbout = {
 
 export const customProjects: typeof enCustomProjects = {
   meta: {
-    title: "Proyectos a medida",
+    title: "A medida",
     description: "Desarrollo de productos a medida para empresas. Tráenos un boceto, una referencia o solo una necesidad, y exploraremos qué es posible.",
   },
-  label: "Proyectos a medida",
+  label: "A medida",
   lines: ["NADA CORRIENTE.", "NADA DE", "CATÁLOGO."],
   text: "Hay ideas que necesitan algo diferente. Cuéntanos qué quieres crear y exploraremos las posibilidades.",
   cta: "CREEMOS ALGO JUNTOS",

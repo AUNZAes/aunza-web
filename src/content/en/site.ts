@@ -9,7 +9,7 @@ export const site = {
     { href: "/products", label: "Products" },
     { href: "/markets", label: "Markets" },
     { href: "/projects", label: "Projects" },
-    { href: "/custom-projects", label: "Custom Projects" },
+    { href: "/custom-projects", label: "Bespoke" },
     { href: "/christmas", label: "Christmas" },
     { href: "/about", label: "About" },
     { href: "/contact", label: "Contact" },
@@ -87,7 +87,7 @@ export const home = {
     ],
   },
   custom: {
-    label: "Custom projects",
+    label: "Bespoke",
     lines: ["NOTHING ORDINARY.", "NOTHING OFF THE SHELF."],
     text: "Some ideas need something different. Tell us what you want to create and we'll explore the possibilities.",
     cta: "LET'S CREATE SOMETHING",
@@ -118,6 +118,21 @@ export const about = {
     "We believe that packaging, uniforms, drinkware, merchandise and everyday objects can become powerful brand experiences. A cup can make someone remember a café. A box can make a small purchase feel like an occasion.",
     "We bring together product possibilities, customization and coordinated production to help businesses create products that feel like their own.",
   ],
+  name: {
+    label: "What AUNZA means",
+    headline: "A Unique New Zenith Approach.",
+    letters: [
+      { word: "A", meaning: null as string | null },
+      { word: "Unique", meaning: null },
+      { word: "New", meaning: null },
+      { word: "Zenith", meaning: "The highest point" },
+      { word: "Approach", meaning: null },
+    ],
+    body: [
+      "AUNZA stands for a unique, different way of approaching each project, exploring new ideas and helping brands reach new heights.",
+      "It's a name that conveys creativity, innovation, differentiation and ambition, in line with our philosophy: turning ideas into real products and experiences.",
+    ],
+  },
   how: {
     label: "How we work",
     headline: "One team between your idea and the finished product.",
@@ -140,10 +155,10 @@ export const about = {
 
 export const customProjects = {
   meta: {
-    title: "Custom Projects",
+    title: "Bespoke",
     description: "Custom product development for businesses. Bring us a sketch, a reference or just a need, and we'll explore what's possible.",
   },
-  label: "Custom Projects",
+  label: "Bespoke",
   lines: ["NOTHING ORDINARY.", "NOTHING OFF", "THE SHELF."],
   text: "Some ideas need something different. Tell us what you want to create and we'll explore the possibilities.",
   cta: "LET'S CREATE SOMETHING",
