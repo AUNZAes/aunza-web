@@ -1,0 +1,739 @@
+{
+ "H01": {
+  "alt": "A composition of AUNZA-branded products: coffee cup, paper bag, packaging box, bottle, notebook and T-shirt",
+  "ratio": 1.5,
+  "tone": "charcoal",
+  "icon": "box",
+  "final": {
+   "src": "/images/final/H01.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "H02": {
+  "alt": "The AUNZA wordmark debossed into thick textured warm-white paper",
+  "ratio": 0.6666666666666666,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/H02.webp",
+   "width": 1024,
+   "height": 1536
+  }
+ },
+ "H03": {
+  "alt": "A terracotta rigid box with an AUNZA wordmark on a terracotta surface",
+  "ratio": 1.5,
+  "tone": "terracotta",
+  "icon": "box",
+  "final": {
+   "src": "/images/final/H03.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "C01": {
+  "alt": "A stack of custom ceramic plates and a cup with a sage glaze",
+  "ratio": 0.6666666666666666,
+  "tone": "sage",
+  "icon": "cup",
+  "final": {
+   "src": "/images/final/C01.webp",
+   "width": 1024,
+   "height": 1536
+  }
+ },
+ "C02": {
+  "alt": "A woven label with the AUNZA mark stitched onto dark fabric",
+  "ratio": 1.5,
+  "tone": "charcoal",
+  "icon": "tee",
+  "final": {
+   "src": "/images/final/C02.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "C03": {
+  "alt": "A round deep-blue metal tin with its lid resting against it",
+  "ratio": 1,
+  "tone": "deep",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/C03.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "D01": {
+  "alt": "A flatlay of paper samples, colour swatches and sketches arranged on a table",
+  "ratio": 1.5,
+  "tone": "sand",
+  "icon": "book",
+  "final": {
+   "src": "/images/final/D01.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "D02": {
+  "alt": "Samples of fabric, board, metal and ceramic laid out side by side",
+  "ratio": 1.5,
+  "tone": "sage",
+  "icon": "leaf",
+  "final": {
+   "src": "/images/final/D02.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "D03": {
+  "alt": "A plain white cup beside the same cup finished with AUNZA branding",
+  "ratio": 1.5,
+  "tone": "paper",
+  "icon": "cup",
+  "final": {
+   "src": "/images/final/D03.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "D04": {
+  "alt": "A stack of kraft shipping cartons printed with the AUNZA wordmark",
+  "ratio": 1.5,
+  "tone": "sand",
+  "icon": "box",
+  "final": {
+   "src": "/images/final/D04.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "G01": {
+  "alt": "A sage green insulated bottle with a steel cap and a vertical AUNZA wordmark",
+  "ratio": 0.6666666666666666,
+  "tone": "sage",
+  "icon": "bottle",
+  "final": {
+   "src": "/images/final/G01.webp",
+   "width": 1024,
+   "height": 1536
+  }
+ },
+ "G02": {
+  "alt": "A deep green linen notebook with a debossed AUNZA wordmark and a black pen",
+  "ratio": 1,
+  "tone": "deep",
+  "icon": "book",
+  "final": {
+   "src": "/images/final/G02.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "G03": {
+  "alt": "A natural canvas tote bag printed with terracotta and sage shapes and the AUNZA wordmark",
+  "ratio": 0.6666666666666666,
+  "tone": "sand",
+  "icon": "bag",
+  "final": {
+   "src": "/images/final/G03.webp",
+   "width": 1024,
+   "height": 1536
+  }
+ },
+ "G04": {
+  "alt": "A matte terracotta metal pen resting on warm white paper",
+  "ratio": 1,
+  "tone": "terracotta",
+  "icon": "pen",
+  "final": {
+   "src": "/images/final/G04.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "G05": {
+  "alt": "A charcoal heavyweight hoodie on a hanger with a small embroidered AUNZA wordmark",
+  "ratio": 0.6666666666666666,
+  "tone": "sand",
+  "icon": "tee",
+  "final": {
+   "src": "/images/final/G05.webp",
+   "width": 1024,
+   "height": 1536
+  }
+ },
+ "G06": {
+  "alt": "A takeaway coffee cup with terracotta and sage shapes, a charcoal lid and the AUNZA wordmark",
+  "ratio": 0.6666666666666666,
+  "tone": "paper",
+  "icon": "cup",
+  "final": {
+   "src": "/images/final/G06.webp",
+   "width": 1024,
+   "height": 1536
+  }
+ },
+ "M01": {
+  "alt": "A takeaway set with a cup, food box, paper bag and napkins, all in one identity",
+  "ratio": 1.5,
+  "tone": "terracotta",
+  "icon": "cup",
+  "final": {
+   "src": "/images/final/M01.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "M02": {
+  "alt": "A retail mailer box, tissue paper and a paper bag in charcoal and sand",
+  "ratio": 1.5,
+  "tone": "sand",
+  "icon": "bag",
+  "final": {
+   "src": "/images/final/M02.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "M03": {
+  "alt": "A corporate welcome kit with notebook, bottle, pen and cards in a charcoal tray",
+  "ratio": 1.5,
+  "tone": "charcoal",
+  "icon": "book",
+  "final": {
+   "src": "/images/final/M03.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "M04": {
+  "alt": "Event merchandise: lanyard, badge, cotton tote, cap and pin badges",
+  "ratio": 1.5,
+  "tone": "deep",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/M04.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "M05": {
+  "alt": "Folded T-shirts, an overshirt and woven labels in charcoal, sand and sage",
+  "ratio": 1.5,
+  "tone": "sand",
+  "icon": "tee",
+  "final": {
+   "src": "/images/final/M05.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "M06": {
+  "alt": "Cosmetic bottles, a jar and a carton in sage and warm white on stone",
+  "ratio": 1.5,
+  "tone": "sage",
+  "icon": "leaf",
+  "final": {
+   "src": "/images/final/M06.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "M07": {
+  "alt": "Hotel amenities: folded towel, amenity bottles, slippers and a key card on stone",
+  "ratio": 1.5,
+  "tone": "deep",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/M07.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "M08": {
+  "alt": "A sports kit with jersey, drawstring bag, bottle and towel in charcoal and terracotta",
+  "ratio": 1.5,
+  "tone": "terracotta",
+  "icon": "bottle",
+  "final": {
+   "src": "/images/final/M08.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "P01": {
+  "alt": "Stacked rigid boxes in terracotta, sand and sage with the AUNZA wordmark",
+  "ratio": 1.5,
+  "tone": "terracotta",
+  "icon": "box",
+  "final": {
+   "src": "/images/final/P01.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "P02": {
+  "alt": "A bottle, ceramic mug, tumbler and takeaway cup in the AUNZA palette",
+  "ratio": 1.5,
+  "tone": "sage",
+  "icon": "cup",
+  "final": {
+   "src": "/images/final/P02.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "P03": {
+  "alt": "A tall charcoal paper bag with rope handles and a white AUNZA wordmark",
+  "ratio": 1.5,
+  "tone": "charcoal",
+  "icon": "bag",
+  "final": {
+   "src": "/images/final/P03.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "P04": {
+  "alt": "A linen apron, polo shirt and T-shirt hanging on a rail",
+  "ratio": 1.5,
+  "tone": "sand",
+  "icon": "tee",
+  "final": {
+   "src": "/images/final/P04.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "P05": {
+  "alt": "A stationery set with letterhead, envelopes, cards and a notebook on warm white",
+  "ratio": 1.5,
+  "tone": "paper",
+  "icon": "book",
+  "final": {
+   "src": "/images/final/P05.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "P06": {
+  "alt": "A corporate gift set with candle, bottle, notebook and tin in an open box",
+  "ratio": 1.5,
+  "tone": "deep",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/P06.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "P07": {
+  "alt": "Table items for hospitality: coasters, menu cover, napkins and a tray",
+  "ratio": 1.5,
+  "tone": "sand",
+  "icon": "cup",
+  "final": {
+   "src": "/images/final/P07.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "P08": {
+  "alt": "A wellness set with a candle, soap bar, bottle and cotton pouch on stone",
+  "ratio": 1.5,
+  "tone": "sage",
+  "icon": "leaf",
+  "final": {
+   "src": "/images/final/P08.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "P09": {
+  "alt": "A collection of unusual custom objects in wood, metal, ceramic and leather",
+  "ratio": 1.5,
+  "tone": "charcoal",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/P09.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "A01": {
+  "alt": "A plain ceramic vessel and the same vessel in terracotta, side by side in soft light",
+  "ratio": 1.5,
+  "tone": "sand",
+  "icon": "cup",
+  "final": {
+   "src": "/images/final/A01.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "MD1": {
+  "alt": "A close-up of a printed coffee cup sleeve and folded napkin",
+  "ratio": 1,
+  "tone": "terracotta",
+  "icon": "cup",
+  "final": {
+   "src": "/images/final/MD1.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "MD2": {
+  "alt": "Tissue paper closed with a branded round seal",
+  "ratio": 1,
+  "tone": "sand",
+  "icon": "bag",
+  "final": {
+   "src": "/images/final/MD2.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "MD3": {
+  "alt": "A stack of thick cards with terracotta painted edges",
+  "ratio": 1,
+  "tone": "charcoal",
+  "icon": "book",
+  "final": {
+   "src": "/images/final/MD3.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "MD4": {
+  "alt": "A close-up of a woven lanyard and clip",
+  "ratio": 1,
+  "tone": "deep",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/MD4.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "MD5": {
+  "alt": "An inner neck label on a sage garment",
+  "ratio": 1,
+  "tone": "sage",
+  "icon": "tee",
+  "final": {
+   "src": "/images/final/MD5.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "MD6": {
+  "alt": "A close-up of a frosted cosmetic bottle",
+  "ratio": 1,
+  "tone": "sage",
+  "icon": "leaf",
+  "final": {
+   "src": "/images/final/MD6.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "MD7": {
+  "alt": "An embroidered wordmark on a folded towel",
+  "ratio": 1,
+  "tone": "deep",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/MD7.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "MD8": {
+  "alt": "A heat-transfer logo on a terracotta sports jersey",
+  "ratio": 1,
+  "tone": "terracotta",
+  "icon": "tee",
+  "final": {
+   "src": "/images/final/MD8.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "PD1": {
+  "alt": "A box opening to show a printed interior",
+  "ratio": 1,
+  "tone": "sand",
+  "icon": "box",
+  "final": {
+   "src": "/images/final/PD1.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "PD2": {
+  "alt": "A laser-engraved wordmark on a bottle",
+  "ratio": 1,
+  "tone": "charcoal",
+  "icon": "bottle",
+  "final": {
+   "src": "/images/final/PD2.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "PD3": {
+  "alt": "A paper bag rope handle and folded top",
+  "ratio": 1,
+  "tone": "sand",
+  "icon": "bag",
+  "final": {
+   "src": "/images/final/PD3.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "PD4": {
+  "alt": "Embroidered wordmark on sand cotton",
+  "ratio": 1,
+  "tone": "sand",
+  "icon": "tee",
+  "final": {
+   "src": "/images/final/PD4.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "PD5": {
+  "alt": "Letterpress wordmark on cotton paper",
+  "ratio": 1,
+  "tone": "paper",
+  "icon": "book",
+  "final": {
+   "src": "/images/final/PD5.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "PD6": {
+  "alt": "A moulded pulp insert holding a candle",
+  "ratio": 1,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/PD6.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "PD7": {
+  "alt": "A stack of thick printed coasters",
+  "ratio": 1,
+  "tone": "sage",
+  "icon": "cup",
+  "final": {
+   "src": "/images/final/PD7.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "PD8": {
+  "alt": "A soap bar with a branded paper band",
+  "ratio": 1,
+  "tone": "paper",
+  "icon": "leaf",
+  "final": {
+   "src": "/images/final/PD8.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "PD9": {
+  "alt": "A small oak dish next to a pencil sketch of itself",
+  "ratio": 1,
+  "tone": "charcoal",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/PD9.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "XH1": {
+  "alt": "A Christmas composition of AUNZA gifts: terracotta box with wine red ribbon, bag, bottle, candle, notebook and card among fir sprigs",
+  "ratio": 1.5,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/XH1.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "XG1": {
+  "alt": "An open deep blue gift box holding wine, olive oil, chocolates, a tin and coffee, with fir and dried orange",
+  "ratio": 1.5,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/XG1.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "XG2": {
+  "alt": "A wine bottle and an olive oil bottle with custom AUNZA labels, beside fir and a lit candle",
+  "ratio": 0.6666666666666666,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/XG2.webp",
+   "width": 1024,
+   "height": 1536
+  }
+ },
+ "XG3": {
+  "alt": "An open terracotta box of chocolates and a sage tin of biscuits, with fir and dried orange",
+  "ratio": 1,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/XG3.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "XC1": {
+  "alt": "An open gift box with a bottle, notebook, pen, candle, card holder and sealed card in pulp compartments",
+  "ratio": 1.5,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/XC1.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "XC2": {
+  "alt": "A sage wool blanket tied with wine red ribbon, with a wooden tray, leather card holder and umbrella on top",
+  "ratio": 0.6666666666666666,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/XC2.webp",
+   "width": 1024,
+   "height": 1536
+  }
+ },
+ "XP1": {
+  "alt": "A Christmas packaging family: boxes with ribbon, a blue bag, a roll of patterned paper, tags and a ribbon spool",
+  "ratio": 1.5,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/XP1.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "XP2": {
+  "alt": "A close-up of a deep blue box with a ribbon, fir sprig, swing tag and wine red wax seal on tissue paper",
+  "ratio": 1,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/XP2.webp",
+   "width": 1254,
+   "height": 1254
+  }
+ },
+ "XE1": {
+  "alt": "A team Christmas kit: sage sweatshirt, white T-shirt, terracotta bottle, canvas tote and card around an open box",
+  "ratio": 1.5,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/XE1.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "XE2": {
+  "alt": "A deep blue gift box with wine red ribbon, a lit terracotta candle and a card",
+  "ratio": 0.6666666666666666,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/XE2.webp",
+   "width": 1024,
+   "height": 1536
+  }
+ },
+ "XJ1": {
+  "alt": "A designer's table with box sketches, material swatches, a white prototype box and the finished terracotta box",
+  "ratio": 1.5,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/XJ1.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "XJ2": {
+  "alt": "A tall sage gift box opening like a cabinet, with a bottle and a lit candle on two shelves",
+  "ratio": 0.6666666666666666,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/XJ2.webp",
+   "width": 1024,
+   "height": 1536
+  }
+ },
+ "XF1": {
+  "alt": "A warm white gift box with wine red ribbon and a fir sprig, a blank card, pine cones and a lit candle",
+  "ratio": 1.5,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/XF1.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "PJ1": {
+  "alt": "Three cups in two sizes and a pack of napkins carrying the Jan Food Catering logo",
+  "ratio": 1.5,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/PJ1.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "PJ2": {
+  "alt": "Polo shirt, notebook, lanyard with badge holder and mug with the Propo identity",
+  "ratio": 1.5,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/PJ2.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ },
+ "PJ3": {
+  "alt": "Arantxa Events Christmas box, closed with a velvet bow and open with a bottle inside",
+  "ratio": 1.5,
+  "tone": "sand",
+  "icon": "gift",
+  "final": {
+   "src": "/images/final/PJ3.webp",
+   "width": 1536,
+   "height": 1024
+  }
+ }
+}
